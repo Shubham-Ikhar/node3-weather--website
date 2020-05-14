@@ -1,7 +1,7 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 16px;
 
@@ -15,20 +15,21 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    color: #1e105c;
+    border-top: 3px solid #9e0606;
     margin-top: 16px;
     padding: 16px 0;
 }
 
 header {
     margin-top: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 70px;
 }
 
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    color: #371146c5;
 }
 
 header a {
@@ -42,7 +43,7 @@ header a {
 }
 
 input {
-    border: 1px solid #cccccc;
+    border: 2px solid #8cc27e;
     padding: 8px;
 }
 
