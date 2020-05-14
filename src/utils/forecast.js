@@ -9,7 +9,7 @@ const forecast = (latitude, longitude, callback) => {
         } else if (body.error) {
             callback('Unable to find location (forecast)', undefined)
         } else {
-            callback(undefined,'This is the location of '+ body.location.name + ' It is currently ' + body.current.temperature + ' degress out.  '+ body.location.country + ' is the name of country.'  +'For more info contact shubham@gmail.com'  )
+            callback(undefined,'This is the location of '+ body.location.name + 'It is located in ' + body.location.country +' It is currently ' + body.current.temperature + ' degress out. '+ ' Current wind speed at '+  body.location.name + ' is ' + body.current.wind_speed+ '. ' +' For more info contact shubhamikhar3@gmail.com '  )
         }
     })
 }
